@@ -1,11 +1,12 @@
 FROM alpine
 RUN apk add --update \
 git \
+ssh \
 npm
 
-RUN addgroup -S bws && adduser -S bws -G bws
+RUN hostname bws
 
-RUN sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+RUN addgroup -S bws && adduser -S bws -G bws
 
 USER bws
 
