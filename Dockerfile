@@ -1,6 +1,5 @@
 FROM alpine
 RUN apk add --update \
-zsh \
 git \
 npm
 
