@@ -4,8 +4,6 @@ git \
 openssh \
 npm
 
-RUN hostname bws
-
 RUN addgroup -S bws && adduser -S bws -G bws
 
 USER bws
