@@ -1,7 +1,7 @@
 FROM alpine
 RUN apk add --update \
 git \
-ssh \
+openssh \
 npm
 
 RUN hostname bws
