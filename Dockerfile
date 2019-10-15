@@ -9,4 +9,6 @@ RUN sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/ins
 
 USER bws
 
+RUN cd ~
+
 ENTRYPOINT /bin/zsh
