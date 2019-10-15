@@ -10,4 +10,4 @@ USER bws
 
 RUN cd ~
 
-ENTRYPOINT /bin/zsh
+ENTRYPOINT /bin/bash
