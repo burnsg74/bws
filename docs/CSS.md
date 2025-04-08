@@ -8,124 +8,128 @@ Get ready to unleash your creativity and make your websites dazzling with CSS! �
 
 ```css
 body {
-  background-color: lightblue;
-  font-family: Arial, sans-serif;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
 }
 ```
 
 In this example, the `body` selector targets the HTML `<body>` element. The properties `background-color` and `font-family` define the background color and font style for the webpage.
 
-Let's dive deeper into CSS and discover its wonders! 
+Let's dive deeper into CSS and discover its wonders!
 
 ---
+
 # Colors
 
-> Colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values
+> Colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.
 
 ## Hexadecimal (Hex) Notation
--   **Format**: `#RRGGBB` or shorthand `#RGB`
--   **Example**: `#FF5733` or `#F53`
--   **Advantages**: 
-   - Compact and widely used.
-   - Easy to copy and paste from design tools.
+- **Format**: `#RRGGBB` or shorthand `#RGB`
+- **Example**: `#FF5733` or `#F53`
+- **Advantages**:
+    - Compact and widely used.
+    - Easy to copy and paste from design tools.
 
 ## RGB Notation
--   **Format**: `rgb(red, green, blue)`
--   **Example**: `rgb(255, 87, 51)`
--   **Advantages**:
-   - Useful for specifying colors with opacity using `rgba`.
-   - Directly corresponds to how colors are displayed on screens.
+- **Format**: `rgb(red, green, blue)`
+- **Example**: `rgb(255, 87, 51)`
+- **Advantages**:
+    - Useful for specifying colors with opacity using `rgba`.
+    - Directly corresponds to how colors are displayed on screens.
 
 ## HSL Notation
--   **Format**: `hsl(hue, saturation%, lightness%)`
--   **Example**: `hsl(9, 100%, 60%)`
--   **Advantages**:
-   - More intuitive for adjusting colors based on human perception.
-   - Easy to adjust brightness and saturation.
+- **Format**: `hsl(hue, saturation%, lightness%)`
+- **Example**: `hsl(9, 100%, 60%)`
+- **Advantages**:
+    - More intuitive for adjusting colors based on human perception.
+    - Easy to adjust brightness and saturation.
 
 ## Recommendations
--   **Hex** is great for simple, solid colors and is very common in web development due to its simplicity.
--   **RGB/RGBA** is ideal when you need to control transparency or work directly with screen color values.
--   **HSL/HSLA** is recommended when you want to manipulate colors programmatically, such as adjusting hue, saturation, or lightness, as it aligns more closely with human perception.
-
+- **Hex** is great for simple, solid colors and is very common in web development due to its simplicity.
+- **RGB/RGBA** is ideal when you need to control transparency or work directly with screen color values.
+- **HSL/HSLA** is recommended when you want to manipulate colors programmatically, such as adjusting hue, saturation, or lightness, as it aligns more closely with human perception.
 
 ---
+
 # Backgrounds
 
 > Properties are used to add background effects for elements.
 
-##  background-color
+## `background-color`
 
-> The `background-color` property specifies the background color of an element.
+> The `background-color` property specifies the background color of an element.
 
 ```css
-body {  
-	background-color: lightblue;
+body {
+  background-color: lightblue;
 }
 ```
 
-![[CSS-Background-color.png|400]]
-
-https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_body
+[Try it here 👉](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_body)
 
 ---
-## background-image
 
-The `background-image` property specifies an image to use as the background of an element.
+## `background-image`
 
-By default, the image is repeated so it covers the entire element.
+The `background-image` property specifies an image to use as the background of an element. By default, the image is repeated so it covers the entire element.
 
 ```css
-body {  
-	background-image: url("paper.gif");
+body {
+  background-image: url("paper.gif");
 }
 ```
 
 ---
-## background-repeat
 
-By default, the `background-image` property repeats an image both horizontally and vertically.
+## `background-repeat`
+
+By default, the `background-image` property repeats an image both horizontally and vertically.
 
 ```css
-body {  
-	background-image: url("gradient_bg.png");  
-	background-repeat: repeat-x;
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
 }
 ```
 
-https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_gradient2
+[Try it here 👉](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_gradient2)
 
 ---
-## background-attachment
 
-The `background-attachment` property specifies whether the background image should scroll or be fixed 
+## `background-attachment`
+
+The `background-attachment` property specifies whether the background image should scroll or be fixed.
 
 ```css
-body {  
-	background-image: url("img_tree.png");  
-	background-repeat: no-repeat;  
-	background-position: right top;  
-	background-attachment: fixed;
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
 ```
-https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_attachment
+
+[Try it here 👉](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_attachment)
 
 ```css
-body {  
-	background-image: url("img_tree.png");  
-	background-repeat: no-repeat;  
-	background-position: right top;  
-	background-attachment: scroll;}
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
 ```
-https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_attachment2
+
+[Try it here 👉](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_attachment2)
 
 ---
-## background - Shorthand property
+
+## Background - Shorthand Property
 
 To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
 
 ```css
-body {  
-	background: #ffffff url("img_tree.png") no-repeat right top;
+body {
+    background: #ffffff url("img_tree.png") no-repeat fixed right top;
 }
 ```
