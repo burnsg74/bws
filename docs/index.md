@@ -27,10 +27,6 @@ features:
     details: Notes and summaries on various books.
     link: /Books
 
-  - title: Brainstorm
-    details: Captured ideas and brainstorming notes.
-    link: /Brainstorm
-
   - title: Clean Code
     details: Tips and principles for writing clean and maintainable code.
     link: /Clean-Code
@@ -71,14 +67,6 @@ features:
     details: Notes and tips for JetBrains IDEs.
     link: /JetBrains
 
-  - title: Job Search
-    details: Strategies and logs for job-hunting activities.
-    link: /Job-Search
-
-  - title: Keyboard Maestro
-    details: Automation using Keyboard Maestro on macOS.
-    link: /Keyboard-Maestro
-
   - title: Laravel
     details: PHP framework for developing elegant web applications.
     link: /Laravel
@@ -110,14 +98,6 @@ features:
   - title: Playwright
     details: End-to-end testing framework for apps.
     link: /Playwright
-
-  - title: PM2 Ports
-    details: Managing Node.js processes with PM2.
-    link: /PM2-Ports
-
-  - title: PrimeNG - Angular UI Component Library
-    details: Features and usage of PrimeNG's UI component library for Angular.
-    link: /PrimeNG
 
   - title: Python
     details: Notes on Python programming language and its applications.
@@ -162,10 +142,6 @@ features:
   - title: Vue
     details: Progressive framework for building user interfaces.
     link: /Vue
-
-  - title: Xterm-React
-    details: Integration of Xterm.js with React for terminal emulation.
-    link: /Xterm-React
 
   - title: YAML
     details: Data serialization format commonly used for configuration files.
