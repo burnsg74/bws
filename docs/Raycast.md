@@ -1,0 +1,6 @@
+Raycast is a productivity application designed to streamline the way you access and manage your tools and services. Its powerful interface allows for control via commands, similar to a Command Line Interface but with a more user-friendly graphic interface. This provides swift access to frequent actions, files, and information, minimizing the need to navigate through multiple apps or windows. Raycast supports a broad array of third-party applications like GitHub, Jira, Asana, and Zoom, enabling direct management of these services. Users can also extend the functionality of the app through custom script commands for automation of workflows. Additionally, the app allows for the customization of keyboard shortcuts for quick navigation and execution of tasks. There's support for both official and community extensions for further functionality. Importantly, Raycast ensures user privacy by not tracking or storing personal data.
+
+	1.	﻿ESC will take you back to the previous page
+	2.	﻿⌘ ESC will take you back to the main search page
+	3.	﻿⌘ W will close the Raycast window
+	4.	﻿⌘ , will open Raycast preferences
