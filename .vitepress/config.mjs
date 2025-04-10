@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Burns Web Services",
   description: "Full Stack Engineer Tech Notes",
+  base: '/',
+  srcDir: './docs',
   themeConfig: {
     // nav: [
     //   { text: 'Home', link: '/' },
